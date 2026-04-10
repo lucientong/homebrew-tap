@@ -11,7 +11,7 @@ class Wormhole < Formula
   on_macos do
     on_intel do
       url "https://github.com/lucientong/wormhole/releases/download/v0.2.0/wormhole_0.2.0_darwin_x86_64.tar.gz"
-      sha256 "2022f8d1a962a0987649324bbae210c9d90306a94956d85e5da75425e5ac0c63"
+      sha256 "454619ca84477cc0c907523ca73cbffa0fc0c52da3aa2009f847eb1da9699e1e"
 
       def install
         bin.install "wormhole"
@@ -19,7 +19,7 @@ class Wormhole < Formula
     end
     on_arm do
       url "https://github.com/lucientong/wormhole/releases/download/v0.2.0/wormhole_0.2.0_darwin_arm64.tar.gz"
-      sha256 "16126ba458f1e7891bb04502ac9cb7861b0fff793b689a98f704402f6962cfa7"
+      sha256 "14f5c76f7df6fa3f01a0fd88873f69b9ec3f5ad0de7b23a9c41c90cefc0d1e3e"
 
       def install
         bin.install "wormhole"
@@ -31,7 +31,7 @@ class Wormhole < Formula
     on_intel do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/lucientong/wormhole/releases/download/v0.2.0/wormhole_0.2.0_linux_x86_64.tar.gz"
-        sha256 "e55ccc2c31daf6f46f70d50b3e17b3b2029e62cf7c5a9c54ff77717a73e4d755"
+        sha256 "0ab622c6bed1fcdaf02ff21bc885abfb28e58938d0f09c9c835f06393f7e356a"
 
         def install
           bin.install "wormhole"
@@ -41,7 +41,7 @@ class Wormhole < Formula
     on_arm do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/lucientong/wormhole/releases/download/v0.2.0/wormhole_0.2.0_linux_arm64.tar.gz"
-        sha256 "104ab4bd6f05f3c617ce0979ce12de3801ba187fe166b321fdaf72874c37d0bd"
+        sha256 "bd41c9dd24b23f81ef8dd77f495285f9728bb7d2ce556550d49790e7bdc7d1b7"
 
         def install
           bin.install "wormhole"
