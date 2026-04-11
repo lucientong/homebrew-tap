@@ -5,21 +5,21 @@
 class Wormhole < Formula
   desc "Zero-config tunnel tool to expose local services to the internet"
   homepage "https://github.com/lucientong/wormhole"
-  version "0.4.0"
+  version "0.4.1"
   license "Apache-2.0"
 
   on_macos do
     on_intel do
-      url "https://github.com/lucientong/wormhole/releases/download/v0.4.0/wormhole_0.4.0_darwin_x86_64.tar.gz"
-      sha256 "fe661cb01f9715f82553979098b2fa832fc958ad25813df658b4f964b1e47e7a"
+      url "https://github.com/lucientong/wormhole/releases/download/v0.4.1/wormhole_0.4.1_darwin_x86_64.tar.gz"
+      sha256 "441a3ea9eada77c9017e8e7ffca6396de5a041e2239d84abd958502f370d529b"
 
       def install
         bin.install "wormhole"
       end
     end
     on_arm do
-      url "https://github.com/lucientong/wormhole/releases/download/v0.4.0/wormhole_0.4.0_darwin_arm64.tar.gz"
-      sha256 "fb9d21a09c5b8cc90df7255b37ef6c0b6fc6df286ad8d0a0a88ec2e70fd16266"
+      url "https://github.com/lucientong/wormhole/releases/download/v0.4.1/wormhole_0.4.1_darwin_arm64.tar.gz"
+      sha256 "b6f376e6ff7da37a95f8c79fb091af7252c40e99a3d4b9a87b951888df87d971"
 
       def install
         bin.install "wormhole"
@@ -30,8 +30,8 @@ class Wormhole < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/lucientong/wormhole/releases/download/v0.4.0/wormhole_0.4.0_linux_x86_64.tar.gz"
-        sha256 "e7d86d86b3843f00decf08210650ffcc4f095f653264dcbf57b1904790a21695"
+        url "https://github.com/lucientong/wormhole/releases/download/v0.4.1/wormhole_0.4.1_linux_x86_64.tar.gz"
+        sha256 "03ae0a47c141bc940f8a091f7d1232d533230480ee3b0e5543d5d3ce2b3ea76f"
 
         def install
           bin.install "wormhole"
@@ -40,8 +40,8 @@ class Wormhole < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/lucientong/wormhole/releases/download/v0.4.0/wormhole_0.4.0_linux_arm64.tar.gz"
-        sha256 "9e13db9bfe8b436205914ded4a24b4bae0e701f877e2a5a6b3ce965e39b142cd"
+        url "https://github.com/lucientong/wormhole/releases/download/v0.4.1/wormhole_0.4.1_linux_arm64.tar.gz"
+        sha256 "f84bede7f3b8fa6d206e041bdc3013efd480454b22c793f1bc351c9e7bc94fb5"
 
         def install
           bin.install "wormhole"
