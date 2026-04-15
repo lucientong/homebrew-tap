@@ -1,10 +1,10 @@
 class Wirepeek < Formula
   desc "High-performance network packet analyzer with modern TUI"
   homepage "https://github.com/lucientong/wirepeek"
-  url "https://github.com/lucientong/wirepeek/archive/refs/tags/v0.1.4.tar.gz"
-  sha256 "6c10449a191026be07fa4e6c62e96dfbb5f5d1747415cdf1702f419a0e51a43f"
+  url "https://github.com/lucientong/wirepeek/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "18f38f058fa1d6f41dd6d3aa85b1524a435453a6f6de237c53026a3e3021cfce"
   license "Apache-2.0"
-  version "0.1.4"
+  version "0.2.0"
 
   depends_on "cmake" => :build
   depends_on "libpcap"
