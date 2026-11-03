@@ -1,6 +1,6 @@
 cask "gimme-remote" do
-  version "0.1.0"
-  sha256 "b612c34a453aa732c0c8cd505dfc029bc43042abcd78299cb677c567bda3ba0f"
+  version "0.1.1"
+  sha256 "d332802877e37b7ac0df27b3776ea23b980446fd80e4f91da0ea7dd1f2aba7f6"
 
   url "https://github.com/lucientong/gimme-remote/releases/download/v#{version}/GimmeRemote-#{version}-universal.zip"
   name "Gimme Remote"
